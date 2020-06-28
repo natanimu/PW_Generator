@@ -49,9 +49,9 @@ label {
 .passwordbox {
     background-color: white;
     color: black;
-    padding: 5rem;
+    padding: 4rem;
     border: 1px solid wheat;
-    height: 5rem;
+    height: 4rem;
     width: 330px;
     display: flex;
     align-items: center;
