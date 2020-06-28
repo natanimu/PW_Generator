@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>PW generator</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        // Telling criteria of PW to customer.
+        var PwcriteriaLetter = confirm("Password must include Upper, Lower case.");
+        var PwcriteriNumber = confirm("Password must include number.");
+        var PwcriteriSpecial = confirm("Password must include special Charactor.")
+
+    </script>
+    
+    <div class="container">
+        <h1>Password Generator</h1>
+        <h3 class ="passwordbox" id="passwordbox">Password</h3>
+        <form id="passwordGeneratorFormID" class="form">
+            <label for ="characterAmount">Number of charactor(8-128)</label>
+            <div class="numberbox">     
+
+                <input type="number" min="8" value="8" max="128" id="characternumber">
+            
+            </div>
+         
+<!--add upper case-->
+            <label for="Include Uppercase">Include Upprcase</label>
+            <input type="checkbox" id="includeUppercase">
+<!--add numbers-->
+            <label for="IncludeNumbers">Include Number</label>
+            <input type="checkbox" id="includeNumbers">
+<!--add special charactor-->
+            <label for="IncludeSpecial">Include Special charactor</label>
+            <input type="checkbox" id="includeSpecial">
+
+            <button type="submit" class="btn">Generate Password</button>
+        
+        </form>
+
+
+
+    </div>
+</body>
+</html>

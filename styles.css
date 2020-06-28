@@ -1,0 +1,78 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+    display: flex; 
+    margin: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+label {
+    font-weight: 900;
+}
+.container {
+    background-color: cornsilk;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap:  1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.numberbox {
+    display: flex;
+    align-items: center;
+
+}
+
+.numberinput {
+    width: 3rem;
+    
+}
+
+
+.passwordbox {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid wheat;
+    height: 2rem;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    border:2px solid maroon;
+
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid white;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 2px solid maroon;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: orange;
+}
